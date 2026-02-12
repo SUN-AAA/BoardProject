@@ -10,6 +10,6 @@ public class TestController {
     @GetMapping("/test")
     @ResponseBody
     public String test(){
-        return "test";
+        return "Backend test";
     }
 }
